@@ -1024,11 +1024,15 @@ AI 在开始新任务时，必须先检查 `field-journal/_index.md`：
 
 **手动配置步骤**：
 
-1. 确认 IDA Pro 已安装，记下安装目录（如 `D:\APP\IDA`）
+1. 确认 IDA Pro 已安装，记下安装目录
 
-2. 设置环境变量：
+2. 设置环境变量（替换为你的实际路径）：
    ```powershell
-   [Environment]::SetEnvironmentVariable('IDADIR', 'D:\APP\IDA', 'User')
+   [Environment]::SetEnvironmentVariable('IDADIR', '<你的IDA安装目录>', 'User')
+   ```
+   或 CMD：
+   ```cmd
+   setx IDADIR "<你的IDA安装目录>"
    ```
 
 3. 安装 ida-pro-mcp（必须从 GitHub，不是 PyPI）：

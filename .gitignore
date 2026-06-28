@@ -30,6 +30,9 @@ Desktop.ini
 测试案例/
 测试案例.zip
 
+# 个人实操归档（本地记录，不随仓库分发）
+EXPLORE_LOG.md
+
 # 工具索引（每台机器不同，由脚本自动生成）
 skills/tool-index.md
 skills/tool-index.json

@@ -55,3 +55,46 @@ BOOTSTRAP.md
 
 # 生成的报告目录（避免未脱敏内容泄漏）
 reports/
+
+
+# Jesse的
+
+报错截图/
+交付视频/
+需求沟通/
+输出内容/
+error.log
+
+danger-glm-claude-code.bat
+glm-claude-code.bat
+danger-glm-happy-claude-code.bat
+glm-happy-claude-code.bat
+glm-claude-code常用指令.md
+
+danger-claude-code-max.bat
+claude-code-max.bat
+danger-claude-happy-code-max.bat
+claude-happy-code-max.bat
+claude-code-max常用指令.md
+
+codex-code-max.bat
+
+mimo-claude-code.bat
+danger-mimo-claude-code.bat
+
+deepseek-claude-code.bat
+danger-deepseek-claude-code.bat
+
+minimax-claude-code.bat
+minimax-claude-code常用指令.md
+minimax-happy-claude-code.bat
+danger-minimax-claude-code.bat
+
+# Comment out the following lines to include Python cache files
+__pycache__/
+*.pyc
+
+# 异步沟通系统内需忽略的文件名称
+ybgt-log.txt
+ybgt-metadata.json
+Git-Show-Unstaged-Diffs.bat
